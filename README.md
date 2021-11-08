@@ -11,5 +11,5 @@
 
 # الاستخدام:
 1. قم بفك ضغط ملف libs.rar لداخل ملف المشروع  QRCodeGenerator/libs
-2. ادخل لبرنامج ال myphpadmin بصلاحيات root وقم بعمل import لملف qrcode_db.sql 
+2. ادخل لبرنامج ال phpmyadmin بصلاحيات root وقم بعمل import لملف qrcode_db.sql 
 3. افتح الصفحة للتأكد منها
