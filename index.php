@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="ar" >
 	<head>
@@ -42,11 +42,11 @@
 			<div class="qr-field">
 			<h3>:(QR)كود الـ</h3>
 			<center>
-					<div class="qrframe" style="border:2px; width:210px; height:210px;">
+					<div class="qrframe" id="qrframe" style="border:2px; width:210px; height:210px;">
 							<?php							
 							if(ISSET($_GET['file'])){
 								
-								echo '<img src="images/'.$_GET['file'].'" style="width:200px; height:200px;"><br></div>'; 
+								echo '<div id="img-align"><img align="middle" src="images/'.$_GET['file'].'" style="max-width:200px; max-height:200px;"></div><br></div>'; 
 								echo '<a class="btn btn-primary submitBtn" class="bi bi-save" style="width:210px; margin:5px 0;" href="download.php?file='.$_GET['file'].'">حفظ الكود <span class="glyphicon glyphicon-cloud-download"></span></a>';
 							} ?>
 					
