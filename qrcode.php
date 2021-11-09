@@ -15,7 +15,7 @@
 	
 	$ecc = 'L';
 	$pixel_Size = 10;
-	$frame_Size = 1;
+	$frame_Size = 0;
 	
 	$query = "insert into qrtable(qrText,qrImage) values ('$text','$filename')";
 	
