@@ -18,12 +18,12 @@
 			<h3>:ابعاد الكود</h3>
 				<form action="qrcode.php" method="POST">
 					<select name="size" class="form-control" dir="rtl">
-						<option value="50"'.(($size==50)?).'>50x50</option>
-						<option value="100"'.(($size==100)?' selected':'').'>100x100</option>
-						<option value="150"'.(($size==150)?' selected':'').'>150x150</option>
-						<option value="200"'.(($size==200)?' selected':'').'>200x200</option>
-						<option value="250"'.(($size==250)?' selected':'').'>250x250</option>
-						<option value="500"'.(($size==500)?' selected':'').'>500x500</option>
+						<option value="50"'.($size==50).'>50x50</option>
+						<option value="100"'.($size==100).'>100x100</option>
+						<option value="200"'.($size==200).' selected>200x200</option>
+						<option value="300"'.(($size==300).'>300x300</option>
+						<option value="400"'.($size==400).'>400x400</option>
+						<option value="500"'.($size==500).'>500x500</option>
 					</select>
 					<br >
 					<h3>:النص المراد تحويله</h3>
