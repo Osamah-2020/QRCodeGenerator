@@ -1,0 +1,62 @@
+/*===================================*/
+
+html,h2,h3,a,button{
+font-family: 'tajawalregular', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'tajawalregular' !important;
+    src: url('fonts/tajawal-regular-webfont.woff2') format('woff2'),
+         url('fonts/tajawal-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.qr-field{
+
+	border: 3px groove cornflowerblue;
+	border-radius: 10px;
+	width: 24em;
+	height:26em;
+	padding: .5em 2em 2em 2em;
+	margin:1em 5em 5em 3em;
+	
+
+}
+.input-field{
+	
+	border: 3px groove cornflowerblue;
+	border-radius: 10px;
+	width: 25em;
+	padding: .5em 2em 2em 2em;
+	margin:1mm 3em 5em;
+	height:26em;
+	float:right;
+}
+.myoutput{
+	border: 3px groove cornflowerblue;
+	border-radius: 10px;
+	margin:7em 5em 0em 5em;
+}
+h2{
+	text-align:center;
+}
+h3{
+	text-align:right;
+}
+.btn {
+	font-size: large;
+}
+
+textarea {
+    resize: none;
+}
+
+#img-align{
+	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+}
